@@ -4,6 +4,6 @@ on_push_main:
   stage: test
   script:
     - echo "Neue Version auf main"
-    - python3 --version
+    - python --version
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
