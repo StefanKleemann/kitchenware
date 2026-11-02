@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling >= 1.26"]
+requires = ["hatchling >= 1.27.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -11,12 +11,12 @@ authors = [
 description = "A small package to generate Toasts to  welcome freshmen at College."
 readme = "README.md"
 requires-python = ">=3.14"
-clasifiers = [
-	"Programming Langugage :: Python :: 3",
+classifiers = [
+	"Programming Language :: Python :: 3",
 	"Operating System :: Linux",
 	]
-licence = "MIT"
-licence-files = ["LICENSE"]
+license = "MIT"
+license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = ""
